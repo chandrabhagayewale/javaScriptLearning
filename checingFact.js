@@ -1,0 +1,14 @@
+ var  myNumber= 0=='';
+ console.log( `${myNumber}`);
+ var small=0=='0';
+ console.log( `${small}`);
+ var big=0==false;
+ console.log( `${big}`);
+ var carry= 1==[1];
+ console.log( `${carry}`);
+ var good= 1==true;
+ console.log( `${good}`);
+ var greet= 1=='1';
+ console.log( `${greet}`);
+ var congrats=null==undefined;
+ console.log( `${congrats}`);

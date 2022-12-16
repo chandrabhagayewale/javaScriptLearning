@@ -1,6 +1,6 @@
 console.log(`-------------------------Length & Sqare of word------------------------------------------`);
-function squareOfWordLength(str1,str2,str3){
-    var value=str1.length
+function squareOfWordLength(str){
+    var value=str.length
 console.log(`1.1 length of word ${value}`);
 
   console.log(`2.1 square ${value*value}`);
