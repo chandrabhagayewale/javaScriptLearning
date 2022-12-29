@@ -91,14 +91,34 @@ console.log(`Total marks :${totalMarks}`);
 console.log(`Accessing an array`);
 console.log(student.familyMemberNames);
 
-console.log(`Object entries`);
+// console.log(`Object enterie`);
 const billgates = {
 
     height: 6,
     weight: 70,
     age: 23,
-    name: "Billgates"
+    name: "Billgates",
+    company: "Microsoft",
+    Valuation:"130B $"
 }
-console.log(Object.entries(billgates));
-console.log(Object.keys(billgates));
-console.log(Object.values(billgates));
+// console.log(Object.entries(billgates));
+// console.log(Object.keys(billgates));
+// console.log(Object.values(billgates));
+console.log(`============================ In operator =======================================`)
+let isAvailable="height" in billgates;
+
+if(isAvailable){
+    delete billgates.position;
+    console.log(`"height" prperty is deleted succesfully`);
+}else
+{
+    console.log(`"height" property not deleted`)
+}
+
+console.log(`====================== For In Loop===============================`);
+for (const key in billgates) {
+    if (Object.hasOwnProperty.call(billgates, key)) {
+        const element = billgates[key];
+        console.log( key,element);
+    }
+}
