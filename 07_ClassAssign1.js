@@ -46,7 +46,7 @@ function traverseObject( detailsClg){
  for (const key in detailsClg) {
     if (Object.hasOwnProperty.call(detailsClg, key)) {
         const element = detailsClg[key];
-        console.log(key,element, );
+        console.log(key ,element, );
     }
  }
  console.log(`\n`);

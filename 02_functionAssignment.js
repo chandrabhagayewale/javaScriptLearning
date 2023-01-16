@@ -28,10 +28,12 @@ swapValueDude(1000,2000);
 console.log("============Additon of three numbers using with attributes and return=============");
 function addThreeValues(val1,val2,val3){
 
-    console.log("addition=", val1+val2+val3);
+   var addition= val1+val2+val3;
     return addition;
 }
-var addition= addThreeValues(10.23,600,40);
-addThreeValues("Hello","Good","Morning");
+var addresult= addThreeValues(10.23,600,40);
+console.log ("add result :",addresult)
+ var addString=addThreeValues("Hello","Good","Morning");
+ console.log("Addition of string :",addString)
 
 
