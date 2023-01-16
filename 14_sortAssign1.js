@@ -19,16 +19,18 @@ array_roll_numbers.sort((a,b)=>{
 const smallestNum= array_roll_numbers[0]
 console.log(smallestNum)
 console.log("======================== removing duplicate value from array===========================")
-const setNumbers= new Set()
+// const setNumbers= new Set()
 
- setNumbers.add(113);
- setNumbers.add(45);
- setNumbers.add(56);
- setNumbers.add(11);
- setNumbers.add(32);
- setNumbers.add(45);
- setNumbers.add(109);
- setNumbers.add(799);
- setNumbers.add(56);
- setNumbers.add(45);
- console.log("Removing duplicate value :",setNumbers)
+//  setNumbers.add(113);
+//  setNumbers.add(45);
+//  setNumbers.add(56);
+//  setNumbers.add(11);
+//  setNumbers.add(32);
+//  setNumbers.add(45);
+//  setNumbers.add(109);
+//  setNumbers.add(799);
+//  setNumbers.add(56);
+//  setNumbers.add(45);
+//  console.log("Removing duplicate value :",setNumbers)
+ const removeDuplicate =[...new Set(array_roll_numbers)]
+ console.log(removeDuplicate)
